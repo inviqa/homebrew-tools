@@ -8,4 +8,10 @@ cask :v1 => 'hem' do
   license :mit
 
   pkg 'hem-1.0.0-dev+20151120101714-1.pkg'
+
+  caveats <<-EOS.undent
+  To enable access to the ruby installation and installed gems,
+  add to your profile:
+    if which rbenv > /dev/null; then eval "$(hem shell-init bash --skip-host-checks)"; fi
+  EOS
 end
