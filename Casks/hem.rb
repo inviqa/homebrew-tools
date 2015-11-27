@@ -7,7 +7,7 @@ cask :v1 => 'hem' do
   homepage 'https://github.com/inviqa/hem'
   license :mit
 
-  pkg 'hem-#{version}.pkg'
+  pkg "hem-#{version}.pkg"
 
   caveats <<-EOS.undent
   To enable access to the ruby installation and installed gems,
