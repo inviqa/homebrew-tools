@@ -12,6 +12,6 @@ cask 'hem' do
   caveats <<-EOS.undent
   To enable access to the ruby installation and installed gems,
   add to your profile:
-    if which hem > /dev/null; then eval "$(hem shell-init bash --skip-host-checks)"; fi
+    if which hem > /dev/null; then eval "$(hem shell-init bash)"; fi
   EOS
 end
