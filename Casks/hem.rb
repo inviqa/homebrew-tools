@@ -1,6 +1,6 @@
 cask 'hem' do
-  version '1.2.2-1'
-  sha256 '88767892a2ea032b57417fc61ff8a0a3a0cb5665d867dea57ac4968f6aa83acf'
+  version '1.2.3-1'
+  sha256 '78e41ce9924c74880fe370fcb328e0eec85c4bd040f1f8850761e5b2a9398920'
 
   url "https://dx6pc3giz7k1r.cloudfront.net/hem/versions/#{version}/hem-#{version}.dmg"
   name 'Hem'
