@@ -5,11 +5,10 @@ cask 'hem' do
   url "https://dx6pc3giz7k1r.cloudfront.net/hem/versions/#{version}/hem-#{version}.dmg"
   name 'Hem'
   homepage 'https://github.com/inviqa/hem'
-  license :mit
 
   pkg "hem-#{version}.pkg"
 
-  caveats <<-EOS.undent
+  caveats <<~EOS
   To enable access to the ruby installation and installed gems,
   add to your profile:
     if which hem > /dev/null; then eval "$(hem shell-init bash)"; fi
